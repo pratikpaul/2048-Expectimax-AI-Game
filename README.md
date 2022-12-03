@@ -1,4 +1,4 @@
-                                                                    **README**
+                                                                 **README**
 Setup
 1.	Download the project from Github
 Git clone 
