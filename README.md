@@ -42,4 +42,4 @@ Evaluations of the final score for baseline AI and Tree-based AI and representat
 2. Enter the target game tile.
 3. Enter the number of iterations you want to execute.
 
-![plot](./blob/main/AIscores.png)
+![Screenshot](AIscores.png)
