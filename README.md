@@ -1,12 +1,16 @@
 **README**
 
+**Game 2048**
+
+Italian web developer Gabriele Cirulli created the single-player sliding tile puzzle video game 2048, which was made available on GitHub. The goal of the game is to assemble numbered tiles on a grid to make a tile with the number 2048, although players can keep playing the game after achieving the objective to create tiles with higher numbers.
+
+**Expectimax**
+
+The game theory algorithm Expectimax is used to maximize the expected utility. In this game, we implement depth limited search where the expectation and maximization alternate turns. It assesses all potential tile values and tile locations for the upcoming generations in anticipation and optimizes based on weights that correspond to the likelihood of each possibility (10% for 4 and 90% for 2). In maximizing, it evaluates every move and chooses the one with the highest score. The tree search stops as soon as the predeﬁned depth limit, or highly unlike board state is reached.
+
 **Setup**
 
-1. Download the project from Github
-
-**Git clone**
-
-1. Use the following code to install all packages:
+Use the following code to install all packages:
 
 **pip install -r requirements.txt**
 
@@ -38,6 +42,4 @@ Evaluations of the final score for baseline AI and Tree-based AI and representat
 2. Enter the target game tile.
 3. Enter the number of iterations you want to execute.
 
-**Expectimax**
-
-The game theory algorithm Expectimax is used to maximize the expected utility. In this game, we implement depth limited search where the expectation and maximization alternate turns. It assesses all potential tile values and tile locations for the upcoming generations in anticipation and optimizes based on weights that correspond to the likelihood of each possibility (10% for 4 and 90% for 2). In maximizing, it evaluates every move and chooses the one with the highest score. The tree search stops as soon as the predeﬁned depth limit, or highly unlike board state is reached.
+![plot](./blob/main/AIscores.png)
