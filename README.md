@@ -1,4 +1,4 @@
-**README**
+                               *README*
 
 **Game 2048**
 
