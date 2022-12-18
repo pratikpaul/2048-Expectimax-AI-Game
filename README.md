@@ -67,8 +67,6 @@ Evaluations of the final score for baseline AI and Tree-based AI and representat
 1. Enter the board size for evaluation.
 2. Enter the target game tile.
 3. Enter the number of iterations you want to execute.
-
-Sample Output: Baseline Ai v/s Tree Based AI
  
 
 
