@@ -1,1 +1,0 @@
-from random import randint, seedclass Baseline:    def __init__(self):        pass        def move(self):        return randint(0,3)        
